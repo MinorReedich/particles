@@ -102,7 +102,7 @@ int main(int argc, char** argv)
       float theta = glfwGetTime();
       float x = 6.0f * cos(theta);
       float z = 6.0f * sin(theta);
-      theRenderer.lookAt(vec3(x, 0, z), vec3(0, 0, 0));
+      theRenderer.lookAt(vec3(x, 0, z), vec3(0));
 
       theRenderer.begin(imageId, ALPHA);
       theRenderer.quad(vec3(0), vec4(1.0, 0.0, 0.5, 1.0), 2.0f);
