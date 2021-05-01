@@ -47,4 +47,6 @@ particles/build $ ../bin/demo
 
 ## Results
 
-TODO: Show your work
+For my demo, I used sin and cos funtions to create diagonal 
+lines across the window, simulating the grandest battle in
+Star Wars. I call it: Luke and Vader.
