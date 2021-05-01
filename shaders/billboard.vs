@@ -23,5 +23,5 @@ void main()
    y = vec3(z.y*x.z - z.z*x.y, z.z*x.x - z.x*x.z, z.x*x.y - z.y*x.x);
    mat3 R = mat3(x,y,z); 
 
-   gl_Position = uVP*vec4(R*uSize*(vPos - vec3(0.5f, 0.5f, 0)), 1); 
+   gl_Position = uVP*vec4(R*uSize*(vPos - vec3(0.5f, 0.5f, 0))+uOffset, 1); 
 }
