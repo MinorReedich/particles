@@ -2,7 +2,7 @@
 
 Implements particle systems using openGL
 
-TODO: Add a representative image for your project here
+![not found](sw.gif)
 
 ## How to build
 
@@ -49,6 +49,4 @@ particles/build $ ../bin/demo
 
 For my demo, I used sin and cos functions to create diagonal 
 lines across the window, simulating the greatest battle in all
-of Star Wars. I call it: Luke and Vader.
-
-![not found](sw.gif)
+of Star Wars. I call it: Luke and Vader (see first gif).
