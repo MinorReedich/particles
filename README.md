@@ -50,3 +50,5 @@ particles/build $ ../bin/demo
 For my demo, I used sin and cos functions to create diagonal 
 lines across the window, simulating the greatest battle in all
 of Star Wars. I call it: Luke and Vader.
+
+![not found](sw.gif)
